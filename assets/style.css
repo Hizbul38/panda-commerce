@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 
 .container{
@@ -16,6 +17,11 @@
     color: white;
     font-weight: 500;
     margin: 8px 0px;
+}
+
+.common-section-title{
+    font-weight: 600px;
+    font-size: 36px;
 }
 /* nav style */
 
@@ -93,4 +99,120 @@ font-size: 41px;
 font-weight: 700;
 margin-bottom: 0px;
 display: block;
+}
+
+/* category style */
+
+.categories{
+    margin: 64px auto;
+}
+
+.category-box-container{
+    display: flex;
+    gap: 26px;
+}
+
+.category-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.category-box h3{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.category-box-1{
+    background-color: #FF9C35;
+}
+.category-box-2{
+    background-color: #FF589B;
+}
+.category-box-3{
+    background-color: #4289FF;
+}
+
+/* shoes and backpack section */
+.shoes-backpack-parent{
+    background: rgb(244, 244, 244);
+}
+.shoes-backpack-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.shoes-backpack-title h2{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.shoes-backpack-title p{
+    font-size: 20px;
+    color: #FF9D00;
+}
+
+/* shoe section */
+
+.shoes-section{
+    padding: 50px 0;
+}
+
+.shoe-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.shoe-card{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+}
+
+.shoe-card .buy-button{
+    background: black;
+}
+
+.card-price{
+    display: block;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.shoe-card img{
+    width: 336px;
+    height: 202px;
+}
+
+/* contact us section */
+
+.contact-us-parent{
+    background-color: #FFF2F1;
+    text-align: center;
+    padding: 35px 20px;
+    margin: 35px auto;
+    border-radius: 15px;
+}
+
+.contact-input-btn-parent input{
+    border: none;
+    padding: 15px 152px;
+}
+
+.ontact-input-btn-parent{
+    display: flex;
+    justify-content: center;
+}
+
+.ontact-input-btn-parent .buy-button{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
